@@ -56,7 +56,7 @@ public class Hernandez_fernando_Notaslab {
         
         
         
-        if(opcion==2){
+        else if(opcion==2){
         
         
 
@@ -103,10 +103,14 @@ public class Hernandez_fernando_Notaslab {
     
     
         }
-        if (opcion==3){
+        else if (opcion==3){
+        
+        lease.useDelimeter("\n");
+        
+       
             
         }
-        if (opcion==4){
+        else if (opcion==4){
             break;
         }
     }
